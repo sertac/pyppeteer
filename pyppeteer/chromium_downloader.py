@@ -32,7 +32,7 @@ if NO_PROGRESS_BAR.lower() in ('1', 'true'):
     NO_PROGRESS_BAR = True  # type: ignore
 
 downloadURLs = {
-    'linux': f'{BASE_URL}/Linux_x64/{REVISION}/chrome-linux.zip',
+    'linux': f'{BASE_URL}/Linux_ARM_Cross-Compile/{REVISION}/chrome-linux.zip',
     'mac': f'{BASE_URL}/Mac/{REVISION}/chrome-mac.zip',
     'win32': f'{BASE_URL}/Win/{REVISION}/chrome-win32.zip',
     'win64': f'{BASE_URL}/Win_x64/{REVISION}/chrome-win32.zip',
